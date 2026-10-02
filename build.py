@@ -157,6 +157,16 @@ def update_sessions():
     return sorted([s for s in saved if s["schedule"] not in ids] + fresh, key=lambda s: (s["start"], s["uid"]))
 
 
+def need_times(today):
+    """True while this weekend has a race but ACTC hasn't published its schedule yet (drives the hourly weekend timer)."""
+    sunday = today + timedelta(days=(6 - today.weekday()) % 7)
+    feed = (OUT / "actc.ics").read_text()
+    if f"DTSTART;VALUE=DATE:{sunday:%Y%m%d}" not in feed and f"DTSTART:{sunday:%Y%m%d}T" not in feed:
+        return False  # no race this weekend
+    saved = json.loads(SESSIONS.read_text()) if SESSIONS.exists() else []
+    return not any(timedelta(days=-3) <= day_of(x["start"]) - sunday <= timedelta(0) for x in saved)
+
+
 def main():
     sample = "|Fecha 12 — SAN NICOLAS|dom, 04 oct 2026|Ciudad San Nicolas| — San Nicolas, Buenos Aires|"
     assert parse(sample) == [dict(n=12, name="San Nicolas", date=date(2026, 10, 4),
@@ -203,4 +213,6 @@ def main():
 
 
 if __name__ == "__main__":
+    if sys.argv[1:] == ["--need-times"]:
+        sys.exit(0 if need_times(date.today()) else 1)
     main()
