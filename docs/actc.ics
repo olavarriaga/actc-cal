@@ -7,8 +7,8 @@ X-WR-TIMEZONE:America/Argentina/Buenos_Aires
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tcm-2026-1@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260125
 DTEND;VALUE=DATE:20260126
 SUMMARY:TC Mouras · Fecha 1 — La Plata
@@ -16,8 +16,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-1@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260125
 DTEND;VALUE=DATE:20260126
 SUMMARY:TC Pista Mouras · Fecha 1 — La Plata
@@ -25,8 +25,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-1@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260215
 DTEND;VALUE=DATE:20260216
 SUMMARY:TC · Fecha 1 — Calafate
@@ -34,8 +34,8 @@ LOCATION:Autódromo Calafate\, Calafate\, Santa Cruz
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-1@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260215
 DTEND;VALUE=DATE:20260216
 SUMMARY:TC Pista · Fecha 1 — Calafate
@@ -43,8 +43,8 @@ LOCATION:Autódromo Calafate\, Calafate\, Santa Cruz
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-1@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260222
 DTEND;VALUE=DATE:20260223
 SUMMARY:TC Pick Up · Fecha 1 — La Plata
@@ -52,8 +52,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-1@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260222
 DTEND;VALUE=DATE:20260223
 SUMMARY:TC Pista Pick Up · Fecha 1 — La Plata
@@ -61,8 +61,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-2@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-2@actc-cal
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:TC Mouras · Fecha 2 — Concepción Del Uruguay
@@ -71,8 +71,8 @@ LOCATION:Autódromo Ciudad de Concepción del Uruguay\, Concepción del Uru
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-2@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-2@actc-cal
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 SUMMARY:TC Pista Mouras · Fecha 2 — Concepción Del Uruguay
@@ -81,8 +81,8 @@ LOCATION:Autódromo Ciudad de Concepción del Uruguay\, Concepción del Uru
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-2@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-2@actc-cal
 DTSTART;VALUE=DATE:20260308
 DTEND;VALUE=DATE:20260309
 SUMMARY:TC · Fecha 2 — Viedma
@@ -90,8 +90,8 @@ LOCATION:Autódromo Ciudad de Viedma\, Viedma\, Rio Negro
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-2@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-2@actc-cal
 DTSTART;VALUE=DATE:20260308
 DTEND;VALUE=DATE:20260309
 SUMMARY:TC Pista · Fecha 2 — Viedma
@@ -99,8 +99,8 @@ LOCATION:Autódromo Ciudad de Viedma\, Viedma\, Rio Negro
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-3@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-3@actc-cal
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:TC Mouras · Fecha 3 — La Plata
@@ -108,8 +108,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-3@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-3@actc-cal
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:TC Pista Mouras · Fecha 3 — La Plata
@@ -117,8 +117,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-2@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-2@actc-cal
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:TC Pick Up · Fecha 2 — La Plata
@@ -126,8 +126,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-2@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-2@actc-cal
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:TC Pista Pick Up · Fecha 2 — La Plata
@@ -135,8 +135,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-3@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-3@actc-cal
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:TC · Fecha 3 — Centenario
@@ -144,8 +144,8 @@ LOCATION:Autódromo Parque Provincia del Neuquén\, Centenario\, Neuquén
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-3@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-3@actc-cal
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:TC Pista · Fecha 3 — Centenario
@@ -153,8 +153,8 @@ LOCATION:Autódromo Parque Provincia del Neuquén\, Centenario\, Neuquén
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-4@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-4@actc-cal
 DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:TC · Fecha 4 — Concepción Del Uruguay
@@ -163,8 +163,8 @@ LOCATION:Autódromo Ciudad de Concepción del Uruguay\, Concepción del Uru
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-4@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-4@actc-cal
 DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:TC Pista · Fecha 4 — Concepción Del Uruguay
@@ -173,8 +173,8 @@ LOCATION:Autódromo Ciudad de Concepción del Uruguay\, Concepción del Uru
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-4@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-4@actc-cal
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:TC Mouras · Fecha 4 — La Plata
@@ -182,8 +182,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-4@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-4@actc-cal
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:TC Pista Mouras · Fecha 4 — La Plata
@@ -191,8 +191,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-3@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-3@actc-cal
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:TC Pick Up · Fecha 3 — La Plata
@@ -200,8 +200,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-3@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-3@actc-cal
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:TC Pista Pick Up · Fecha 3 — La Plata
@@ -209,8 +209,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-5@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-5@actc-cal
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
 SUMMARY:TC · Fecha 5 — Termas De Río Hondo
@@ -219,8 +219,8 @@ LOCATION:Autódromo Autódromo Internacional de Termas de Río Hondo\, Term
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-5@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-5@actc-cal
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
 SUMMARY:TC Pista · Fecha 5 — Termas De Río Hondo
@@ -229,8 +229,8 @@ LOCATION:Autódromo Autódromo Internacional de Termas de Río Hondo\, Term
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-5@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-5@actc-cal
 DTSTART;VALUE=DATE:20260517
 DTEND;VALUE=DATE:20260518
 SUMMARY:TC Mouras · Fecha 5 — La Plata
@@ -238,8 +238,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-5@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-5@actc-cal
 DTSTART;VALUE=DATE:20260517
 DTEND;VALUE=DATE:20260518
 SUMMARY:TC Pista Mouras · Fecha 5 — La Plata
@@ -247,8 +247,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-4@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-4@actc-cal
 DTSTART;VALUE=DATE:20260517
 DTEND;VALUE=DATE:20260518
 SUMMARY:TC Pick Up · Fecha 4 — La Plata
@@ -256,8 +256,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-4@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-4@actc-cal
 DTSTART;VALUE=DATE:20260517
 DTEND;VALUE=DATE:20260518
 SUMMARY:TC Pista Pick Up · Fecha 4 — La Plata
@@ -265,8 +265,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-6@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-6@actc-cal
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:TC · Fecha 6 — Alta Gracia
@@ -274,8 +274,8 @@ LOCATION:Autódromo Oscar Cabalén\, Alta Gracia\, Córdoba
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-6@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-6@actc-cal
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:TC Pista · Fecha 6 — Alta Gracia
@@ -283,8 +283,8 @@ LOCATION:Autódromo Oscar Cabalén\, Alta Gracia\, Córdoba
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-6@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-6@actc-cal
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:TC Mouras · Fecha 6 — La Plata
@@ -292,8 +292,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-6@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-6@actc-cal
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:TC Pista Mouras · Fecha 6 — La Plata
@@ -301,8 +301,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-7@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-7@actc-cal
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 SUMMARY:TC · Fecha 7 — Rafaela
@@ -310,8 +310,8 @@ LOCATION:Autódromo Ciudad de Rafaela\, Rafaela\, Santa Fe
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-7@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-7@actc-cal
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 SUMMARY:TC Pista · Fecha 7 — Rafaela
@@ -319,8 +319,8 @@ LOCATION:Autódromo Ciudad de Rafaela\, Rafaela\, Santa Fe
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-5@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-5@actc-cal
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 SUMMARY:TC Pick Up · Fecha 5 — La Plata
@@ -328,8 +328,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-5@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-5@actc-cal
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 SUMMARY:TC Pista Pick Up · Fecha 5 — La Plata
@@ -337,8 +337,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-8@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-8@actc-cal
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
 SUMMARY:TC · Fecha 8 — Posadas
@@ -346,8 +346,8 @@ LOCATION:Autódromo Rosamonte\, Posadas\, Misiones
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-8@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-8@actc-cal
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
 SUMMARY:TC Pista · Fecha 8 — Posadas
@@ -355,8 +355,8 @@ LOCATION:Autódromo Rosamonte\, Posadas\, Misiones
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-7@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-7@actc-cal
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:TC Mouras · Fecha 7 — La Plata
@@ -364,8 +364,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-7@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-7@actc-cal
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:TC Pista Mouras · Fecha 7 — La Plata
@@ -373,8 +373,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-6@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-6@actc-cal
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:TC Pick Up · Fecha 6 — La Plata
@@ -382,8 +382,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-6@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-6@actc-cal
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:TC Pista Pick Up · Fecha 6 — La Plata
@@ -391,8 +391,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-9@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-9@actc-cal
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:TC · Fecha 9 — Albardon
@@ -400,8 +400,8 @@ LOCATION:Autódromo San Juan Villicum\, Albardon\, San Juan
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-9@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-9@actc-cal
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:TC Pista · Fecha 9 — Albardon
@@ -409,8 +409,8 @@ LOCATION:Autódromo San Juan Villicum\, Albardon\, San Juan
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-8@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-8@actc-cal
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:TC Mouras · Fecha 8 — La Plata
@@ -418,8 +418,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-8@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-8@actc-cal
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:TC Pista Mouras · Fecha 8 — La Plata
@@ -427,8 +427,8 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-7@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-7@actc-cal
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:TC Pick Up · Fecha 7 — Rosario
@@ -436,8 +436,8 @@ LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-7@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-7@actc-cal
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:TC Pista Pick Up · Fecha 7 — Rosario
@@ -445,8 +445,8 @@ LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-10@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-10@actc-cal
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:TC · Fecha 10 — Parana
@@ -454,8 +454,8 @@ LOCATION:Autódromo Ciudad de Parana\, Parana\, Entre Rios
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-10@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-10@actc-cal
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:TC Pista · Fecha 10 — Parana
@@ -463,8 +463,8 @@ LOCATION:Autódromo Ciudad de Parana\, Parana\, Entre Rios
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-11@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-11@actc-cal
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:TC · Fecha 11 — San Luis
@@ -472,8 +472,8 @@ LOCATION:Autódromo Rosendo Hernández\, San Luis\, San Luis
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-11@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-11@actc-cal
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:TC Pista · Fecha 11 — San Luis
@@ -481,8 +481,8 @@ LOCATION:Autódromo Rosendo Hernández\, San Luis\, San Luis
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcm-2026-9@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-9@actc-cal
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:TC Mouras · Fecha 9 — Rosario
@@ -490,8 +490,8 @@ LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpm-2026-9@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-9@actc-cal
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:TC Pista Mouras · Fecha 9 — Rosario
@@ -499,8 +499,8 @@ LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcpk-2026-8@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-8@actc-cal
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:TC Pick Up · Fecha 8 — Balcarce
@@ -508,8 +508,8 @@ LOCATION:Autódromo Juan Manuel Fangio-BALCARCE\, Balcarce\, Buenos Aires
 URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcppk-2026-8@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcppk-2026-8@actc-cal
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:TC Pista Pick Up · Fecha 8 — Balcarce
@@ -517,8 +517,8 @@ LOCATION:Autódromo Juan Manuel Fangio-BALCARCE\, Balcarce\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-12@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-12@actc-cal
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:TC · Fecha 12 — San Nicolas
@@ -526,8 +526,8 @@ LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-12@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-12@actc-cal
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:TC Pista · Fecha 12 — San Nicolas
@@ -535,8 +535,8 @@ LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-13@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-13@actc-cal
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:TC · Fecha 13 — Rosario
@@ -544,8 +544,8 @@ LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-13@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-13@actc-cal
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:TC Pista · Fecha 13 — Rosario
@@ -553,8 +553,8 @@ LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-14@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-14@actc-cal
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:TC · Fecha 14 — Rio Cuarto
@@ -562,8 +562,8 @@ LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-14@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-14@actc-cal
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:TC Pista · Fecha 14 — Rio Cuarto
@@ -571,8 +571,8 @@ LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
 URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tc-2026-15@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tc-2026-15@actc-cal
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:TC · Fecha 15 — La Plata
@@ -580,12 +580,210 @@ LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
-UID:tcp-2026-15@actc-cal
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-15@actc-cal
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:TC Pista · Fecha 15 — La Plata
 LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj61217kzcojyjbqvner@actc-cal
+DTSTART:20260912T122500Z
+DTEND:20260912T125500Z
+SUMMARY:1er. Entrenamiento TCP · Grupo A 30 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj61217lzcojqkqa2jor@actc-cal
+DTSTART:20260912T130000Z
+DTEND:20260912T133000Z
+SUMMARY:1er. Entrenamiento TCP · Grupo B 30 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj61217nzcojoo9xber2@actc-cal
+DTSTART:20260912T140500Z
+DTEND:20260912T142500Z
+SUMMARY:1er. Entrenamiento TC · Grupo A 20 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj61217ozcoj532hr0fn@actc-cal
+DTSTART:20260912T143000Z
+DTEND:20260912T145000Z
+SUMMARY:1er. Entrenamiento TC · Grupo B 20 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj61217pzcojk318wfrq@actc-cal
+DTSTART:20260912T145500Z
+DTEND:20260912T152500Z
+SUMMARY:2do. Entrenamiento TCP · Grupo A 30 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj61217qzcojjrn98ew8@actc-cal
+DTSTART:20260912T153000Z
+DTEND:20260912T160000Z
+SUMMARY:2do. Entrenamiento TCP · Grupo B 30 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622180zcojxoqpwkng@actc-cal
+DTSTART:20260912T162000Z
+DTEND:20260912T165000Z
+SUMMARY:2do. Entrenamiento TC · Grupo A 30 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622181zcoj1glk6fu0@actc-cal
+DTSTART:20260912T165500Z
+DTEND:20260912T172500Z
+SUMMARY:2do. Entrenamiento TC · Grupo B 30 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622184zcoj084khdy0@actc-cal
+DTSTART:20260912T190900Z
+DTEND:20260912T191700Z
+SUMMARY:Clasificación TCP · 2* Tercio 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622185zcoj2euusif6@actc-cal
+DTSTART:20260912T192200Z
+DTEND:20260912T193000Z
+SUMMARY:Clasificación TCP · 3* Tercio 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622186zcojecs30zlf@actc-cal
+DTSTART:20260912T193500Z
+DTEND:20260912T194300Z
+SUMMARY:Clasificación TCP · 1* Tercio 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622187zcojl4dzof9m@actc-cal
+DTSTART:20260912T194800Z
+DTEND:20260912T195600Z
+SUMMARY:Clasificación TC · 2* Cuarto 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622188zcoj03s4dqkd@actc-cal
+DTSTART:20260912T200100Z
+DTEND:20260912T200900Z
+SUMMARY:Clasificación TC · 3* Cuarto 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj622189zcojyejvijw9@actc-cal
+DTSTART:20260912T201400Z
+DTEND:20260912T202200Z
+SUMMARY:Clasificación TC · 4* Cuarto 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj62218azcojvxs3jri1@actc-cal
+DTSTART:20260912T202700Z
+DTEND:20260912T203500Z
+SUMMARY:Clasificación TC · 1* Cuarto 8 Min.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj62218dzcojv493si3y@actc-cal
+DTSTART:20260913T130500Z
+DTEND:20260913T131500Z
+SUMMARY:1ra. Serie TCP · 5 vueltas
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj62218fzcoj2ftx9fca@actc-cal
+DTSTART:20260913T133000Z
+DTEND:20260913T134000Z
+SUMMARY:2da. Serie TCP · 5 vueltas
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj62218hzcojyu9rv6hg@actc-cal
+DTSTART:20260913T135500Z
+DTEND:20260913T140500Z
+SUMMARY:1ra. Serie TC · 5 vueltas
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj62218jzcojuuqo1cf0@actc-cal
+DTSTART:20260913T142000Z
+DTEND:20260913T143000Z
+SUMMARY:2da. Serie TC · 5 vueltas
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj63218lzcojitdm495o@actc-cal
+DTSTART:20260913T144500Z
+DTEND:20260913T145500Z
+SUMMARY:3ra. Serie TC · 5 vueltas
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj63218rzcojp44slh3k@actc-cal
+DTSTART:20260913T155500Z
+DTEND:20260913T163500Z
+SUMMARY:FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:cmtytsj63218wzcojfntpz67q@actc-cal
+DTSTART:20260913T170000Z
+DTEND:20260913T175000Z
+SUMMARY:FINAL TC · 25 Vueltas o 50 (Cincuenta) minutos máximo.
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
 END:VEVENT
 END:VCALENDAR

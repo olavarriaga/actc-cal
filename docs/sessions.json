@@ -1,0 +1,244 @@
+[
+ {
+  "uid": "cmtytsj61217kzcojyjbqvner",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "1er. Entrenamiento TCP · Grupo A 30 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T122500Z",
+  "end": "20260912T125500Z"
+ },
+ {
+  "uid": "cmtytsj61217lzcojqkqa2jor",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "1er. Entrenamiento TCP · Grupo B 30 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T130000Z",
+  "end": "20260912T133000Z"
+ },
+ {
+  "uid": "cmtytsj61217nzcojoo9xber2",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "1er. Entrenamiento TC · Grupo A 20 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T140500Z",
+  "end": "20260912T142500Z"
+ },
+ {
+  "uid": "cmtytsj61217ozcoj532hr0fn",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "1er. Entrenamiento TC · Grupo B 20 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T143000Z",
+  "end": "20260912T145000Z"
+ },
+ {
+  "uid": "cmtytsj61217pzcojk318wfrq",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "2do. Entrenamiento TCP · Grupo A 30 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T145500Z",
+  "end": "20260912T152500Z"
+ },
+ {
+  "uid": "cmtytsj61217qzcojjrn98ew8",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "2do. Entrenamiento TCP · Grupo B 30 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T153000Z",
+  "end": "20260912T160000Z"
+ },
+ {
+  "uid": "cmtytsj622180zcojxoqpwkng",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "2do. Entrenamiento TC · Grupo A 30 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T162000Z",
+  "end": "20260912T165000Z"
+ },
+ {
+  "uid": "cmtytsj622181zcoj1glk6fu0",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "2do. Entrenamiento TC · Grupo B 30 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T165500Z",
+  "end": "20260912T172500Z"
+ },
+ {
+  "uid": "cmtytsj622184zcoj084khdy0",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "Clasificación TCP · 2* Tercio 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T190900Z",
+  "end": "20260912T191700Z"
+ },
+ {
+  "uid": "cmtytsj622185zcoj2euusif6",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "Clasificación TCP · 3* Tercio 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T192200Z",
+  "end": "20260912T193000Z"
+ },
+ {
+  "uid": "cmtytsj622186zcojecs30zlf",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "Clasificación TCP · 1* Tercio 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T193500Z",
+  "end": "20260912T194300Z"
+ },
+ {
+  "uid": "cmtytsj622187zcojl4dzof9m",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "Clasificación TC · 2* Cuarto 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T194800Z",
+  "end": "20260912T195600Z"
+ },
+ {
+  "uid": "cmtytsj622188zcoj03s4dqkd",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "Clasificación TC · 3* Cuarto 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T200100Z",
+  "end": "20260912T200900Z"
+ },
+ {
+  "uid": "cmtytsj622189zcojyejvijw9",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "Clasificación TC · 4* Cuarto 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T201400Z",
+  "end": "20260912T202200Z"
+ },
+ {
+  "uid": "cmtytsj62218azcojvxs3jri1",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "Clasificación TC · 1* Cuarto 8 Min.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260912T202700Z",
+  "end": "20260912T203500Z"
+ },
+ {
+  "uid": "cmtytsj62218dzcojv493si3y",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "1ra. Serie TCP · 5 vueltas",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T130500Z",
+  "end": "20260913T131500Z"
+ },
+ {
+  "uid": "cmtytsj62218fzcoj2ftx9fca",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "2da. Serie TCP · 5 vueltas",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T133000Z",
+  "end": "20260913T134000Z"
+ },
+ {
+  "uid": "cmtytsj62218hzcojyu9rv6hg",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "1ra. Serie TC · 5 vueltas",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T135500Z",
+  "end": "20260913T140500Z"
+ },
+ {
+  "uid": "cmtytsj62218jzcojuuqo1cf0",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "2da. Serie TC · 5 vueltas",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T142000Z",
+  "end": "20260913T143000Z"
+ },
+ {
+  "uid": "cmtytsj63218lzcojitdm495o",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "3ra. Serie TC · 5 vueltas",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T144500Z",
+  "end": "20260913T145500Z"
+ },
+ {
+  "uid": "cmtytsj63218rzcojp44slh3k",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tcp"
+  ],
+  "title": "FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T155500Z",
+  "end": "20260913T163500Z"
+ },
+ {
+  "uid": "cmtytsj63218wzcojfntpz67q",
+  "schedule": "cmtdbcp9d00tvvk7w7vngzs3l",
+  "slugs": [
+   "tc"
+  ],
+  "title": "FINAL TC · 25 Vueltas o 50 (Cincuenta) minutos máximo.",
+  "location": "Autodromo Rosendo Hernández- San Luis, San Luis, San Luís",
+  "start": "20260913T170000Z",
+  "end": "20260913T175000Z"
+ }
+]
