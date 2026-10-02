@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//actc-cal//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ACTC TC Pista
+X-WR-TIMEZONE:America/Argentina/Buenos_Aires
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tcp-2026-1@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:TC Pista · Fecha 1 — Calafate
+LOCATION:Autódromo Calafate\, Calafate\, Santa Cruz
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-2@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:TC Pista · Fecha 2 — Viedma
+LOCATION:Autódromo Ciudad de Viedma\, Viedma\, Rio Negro
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-3@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:TC Pista · Fecha 3 — Centenario
+LOCATION:Autódromo Parque Provincia del Neuquén\, Centenario\, Neuquén
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-4@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:TC Pista · Fecha 4 — Concepción Del Uruguay
+LOCATION:Autódromo Ciudad de Concepción del Uruguay\, Concepción del Uru
+ guay\, Entre Rios
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-5@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:TC Pista · Fecha 5 — Termas De Río Hondo
+LOCATION:Autódromo Autódromo Internacional de Termas de Río Hondo\, Term
+ as de Río Hondo\, Santiago del Estero
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-6@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:TC Pista · Fecha 6 — Alta Gracia
+LOCATION:Autódromo Oscar Cabalén\, Alta Gracia\, Córdoba
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-7@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:TC Pista · Fecha 7 — Rafaela
+LOCATION:Autódromo Ciudad de Rafaela\, Rafaela\, Santa Fe
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-8@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:TC Pista · Fecha 8 — Posadas
+LOCATION:Autódromo Rosamonte\, Posadas\, Misiones
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-9@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:TC Pista · Fecha 9 — Albardon
+LOCATION:Autódromo San Juan Villicum\, Albardon\, San Juan
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-10@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:TC Pista · Fecha 10 — Parana
+LOCATION:Autódromo Ciudad de Parana\, Parana\, Entre Rios
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-11@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:TC Pista · Fecha 11 — San Luis
+LOCATION:Autódromo Rosendo Hernández\, San Luis\, San Luis
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-12@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:TC Pista · Fecha 12 — San Nicolas
+LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-13@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TC Pista · Fecha 13 — Rosario
+LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-14@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TC Pista · Fecha 14 — Rio Cuarto
+LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcp-2026-15@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:TC Pista · Fecha 15 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//actc-cal//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ACTC TC Mouras
+X-WR-TIMEZONE:America/Argentina/Buenos_Aires
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tcm-2026-1@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260125
+DTEND;VALUE=DATE:20260126
+SUMMARY:TC Mouras · Fecha 1 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-2@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:TC Mouras · Fecha 2 — Concepción Del Uruguay
+LOCATION:Autódromo Ciudad de Concepción del Uruguay\, Concepción del Uru
+ guay\, Entre Rios
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-3@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:TC Mouras · Fecha 3 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-4@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:TC Mouras · Fecha 4 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-5@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:TC Mouras · Fecha 5 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-6@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:TC Mouras · Fecha 6 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-7@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:TC Mouras · Fecha 7 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-8@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:TC Mouras · Fecha 8 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+UID:tcm-2026-9@actc-cal
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:TC Mouras · Fecha 9 — Rosario
+LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+END:VCALENDAR

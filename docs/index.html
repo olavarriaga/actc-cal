@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ACTC Calendario</title>
+<style>
+  :root { --bg: #fff; --fg: #111; --link: #c00; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111; --fg: #eee; --link: #f55; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; max-width: 32rem; margin: 2rem auto; padding: 0 16px; }
+  a { color: var(--link); }
+</style>
+<h1>Calendario ACTC</h1>
+<p>Tocá un link para suscribirte. Se actualiza solo todos los días.</p>
+<ul>
+  <li><a href="actc.ics" data-ics>Todas las categorías</a></li>
+  <li><a href="tc.ics" data-ics>TC</a></li>
+  <li><a href="tcp.ics" data-ics>TC Pista</a></li>
+  <li><a href="tcm.ics" data-ics>TC Mouras</a></li>
+  <li><a href="tcpm.ics" data-ics>TC Pista Mouras</a></li>
+  <li><a href="tcpk.ics" data-ics>TC Pick Up</a></li>
+  <li><a href="tcppk.ics" data-ics>TC Pista Pick Up</a></li>
+</ul>
+<p>Google Calendar: Otros calendarios → <b>+</b> → Desde URL → pegá el link (https).</p>
+<script>
+  // turn relative links into webcal:// so Apple/Outlook subscribe instead of downloading
+  for (const a of document.querySelectorAll("[data-ics]")) a.href = a.href.replace(/^https?:/, "webcal:");
+</script>
+</html>
