@@ -95,7 +95,11 @@ def sessions(schedule):
 
 def update_sessions():
     saved = json.loads(SESSIONS.read_text()) if SESSIONS.exists() else []
-    live = [x for x in json.loads(fetch("api/schedules"))["data"] if x.get("published")]
+    try:
+        live = [x for x in json.loads(fetch("api/schedules"))["data"] if x.get("published")]
+    except urllib.error.HTTPError as err:  # Cloudflare 403s datacenter IPs (e.g. GitHub Actions) on /api
+        print(f"api/schedules: {err}; keeping {len(saved)} saved sessions")
+        return saved
     fresh = [s for x in live for s in sessions(x)]
     # a live schedule replaces everything we stored for it, so edits and removals propagate
     ids = {x["id"] for x in live}
