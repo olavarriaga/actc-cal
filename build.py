@@ -11,8 +11,13 @@ MONTHS = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6, "jul": 7, 
 ROW = re.compile(r"Fecha (\d+) — ([^|]+)\|\w+, (\d+) (\w+) (\d{4})\|([^|]+)\| — ([^|]+)")
 OUT = Path(__file__).parent / "docs"
 SESSIONS = OUT / "sessions.json"  # ACTC's API only keeps the current weekend, so we remember past ones here
-# ponytail: keyword filter for on-track sessions; skips "Salida a pista", TV/grid notes, admin items
-KEEP = re.compile(r"entrenamiento|clasificaci|\bserie\b|\bfinal\b|\bcarrera\b", re.I)
+# ponytail: keyword match on titles; anything else ("Salida a pista", TV/grid notes) is dropped
+KINDS = {"Entrenamientos": r"entrenamiento", "Clasificación": r"clasificaci", "Series": r"\bserie\b",
+         "Final": r"\bfinal\b"}
+
+
+def kind_of(title):
+    return next((k for k, rx in KINDS.items() if re.search(rx, title, re.I)), None)
 
 
 def parse(page):
@@ -50,6 +55,24 @@ def race_event(slug, e):
             f"URL:https://www.actc.org.ar/{slug}/calendario"]
 
 
+def blocks(slug, mine, races):
+    """Merge a category's sessions into one block per (day, kind): 4 quali groups -> one 'Clasificación'."""
+    merged = {}
+    for x in mine:
+        day, kind = day_of(x["start"]), kind_of(x["title"])
+        if kind:
+            b = merged.setdefault((day, kind), dict(x, start=x["start"], end=x["end"]))
+            b["start"], b["end"] = min(b["start"], x["start"]), max(b["end"], x["end"])
+    out = []
+    for (day, kind), b in sorted(merged.items()):
+        race = next((e for e in races if (day - e["date"]).days in range(-3, 1)), None)
+        title = f"{CATS[slug]} · {kind}" + (f" — {race['name']}" if kind == "Final" and race else "")
+        # same UID whether estimated or real, so the published schedule updates the estimate in place
+        out.append(dict(b, uid=f"{slug}-{day:%Y%m%d}-{kind.lower()}", slugs=[slug],
+                        title=title + (" (estimado)" if b.get("estimated") else "")))
+    return out
+
+
 def session_event(x):
     url = f"cronogramas/{x['schedule']}" if x["schedule"] else f"{x['slugs'][0]}/calendario"
     return [f"UID:{x['uid']}@actc-cal", f"DTSTART:{x['start']}", f"DTEND:{x['end']}",
@@ -79,7 +102,7 @@ def estimates(slug, races, saved, today):
         shift = timedelta(days=(e["date"] - sunday).days)
         move = lambda t: f"{datetime.strptime(t, '%Y%m%dT%H%M%SZ') + shift:%Y%m%dT%H%M%SZ}"
         out += [dict(x, uid=f"est-{slug}-{e['date']:%Y%m%d}-{x['uid']}", schedule=None, slugs=[slug], estimated=True,
-                     title=x["title"] + " (estimado)", location=f"Autódromo {e['track']}, {e['city']}",
+                     location=f"Autódromo {e['track']}, {e['city']}",
                      start=move(x["start"]), end=move(x["end"])) for x in template]
     return out
 
@@ -109,7 +132,7 @@ def sessions(schedule):
     for day in schedule["days"]:
         for i in day["items"]:
             slugs = sorted({l["label"].lower() for l in i["logos"] if l.get("label")} & CATS.keys())
-            if i["trackType"] == "administrative" or not slugs or not KEEP.search(i["title"]):
+            if i["trackType"] == "administrative" or not slugs or not kind_of(i["title"]):
                 continue
             # ponytail: Argentina is fixed UTC-3 with no DST; use zoneinfo if that ever changes
             midnight = datetime.fromisoformat(day["date"][:10]) + timedelta(hours=3)
@@ -151,6 +174,12 @@ def main():
     [est] = estimates("tc", races, [real], date(2026, 10, 2))
     assert (est["start"], est["estimated"], est["uid"]) == ("20261024T170000Z", True, "est-tc-20261025-i1")
     assert estimates("tcm", races, [real], date(2026, 10, 2)) == []
+    q = dict(got, title="Clasificación TC", start="20260912T194800Z", end="20260912T195600Z")
+    bs = blocks("tc", [q, dict(q, start="20260912T202700Z", end="20260912T203500Z"), got, est], races)
+    assert [(b["title"], b["start"], b["end"]) for b in bs] == [
+        ("TC · Clasificación", "20260912T194800Z", "20260912T203500Z"),
+        ("TC · Final", "20260913T170000Z", "20260913T175000Z"),
+        ("TC · Final — Y (estimado)", "20261024T170000Z", "20261024T175000Z")]
     found = {slug: parse(fetch(f"{slug}/calendario")) for slug in CATS}
     saved = update_sessions()
     for slug, evs in found.items():
@@ -161,13 +190,15 @@ def main():
     SESSIONS.write_text(json.dumps(saved, ensure_ascii=False, indent=1) + "\n")
     today = date.today()
     est = {slug: estimates(slug, evs, saved, today) for slug, evs in found.items()}
+    everything = []
     for slug, evs in found.items():
-        print(f"{slug}: {len(est[slug])} sesiones estimadas")
-        mine = [x for x in saved if slug in x["slugs"]] + est[slug]
-        events = [race_event(slug, e) for e in evs] + [session_event(x) for x in mine]
+        bs = blocks(slug, [x for x in saved if slug in x["slugs"]] + est[slug], evs)
+        timed = {e["n"] for e in evs for b in bs if (day_of(b["start"]) - e["date"]).days in range(-3, 1)}
+        # all-day event only for races we have no times for yet
+        events = [race_event(slug, e) for e in evs if e["n"] not in timed] + [session_event(b) for b in bs]
+        print(f"{slug}: {len(events)} eventos ({len(bs)} bloques)")
         (OUT / f"{slug}.ics").write_bytes(ics(f"ACTC {CATS[slug]}", events).encode())
-    races = sorted(((s, e) for s, evs in found.items() for e in evs), key=lambda x: x[1]["date"])
-    everything = [race_event(s, e) for s, e in races] + [session_event(x) for x in saved + sum(est.values(), [])]
+        everything += events
     (OUT / "actc.ics").write_bytes(ics("ACTC", everything).encode())
 
 

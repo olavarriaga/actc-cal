@@ -100,535 +100,196 @@ URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:tcp-2026-11@actc-cal
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-SUMMARY:TC Pista · Fecha 11 — San Luis
-LOCATION:Autódromo Rosendo Hernández\, San Luis\, San Luis
-URL:https://www.actc.org.ar/tcp/calendario
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-2026-12@actc-cal
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261005
-SUMMARY:TC Pista · Fecha 12 — San Nicolas
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-2026-13@actc-cal
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:TC Pista · Fecha 13 — Rosario
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-2026-14@actc-cal
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:TC Pista · Fecha 14 — Rio Cuarto
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-2026-15@actc-cal
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:TC Pista · Fecha 15 — La Plata
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj61217kzcojyjbqvner@actc-cal
-DTSTART:20260912T122500Z
-DTEND:20260912T125500Z
-SUMMARY:1er. Entrenamiento TCP · Grupo A 30 Min.
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj61217lzcojqkqa2jor@actc-cal
-DTSTART:20260912T130000Z
-DTEND:20260912T133000Z
-SUMMARY:1er. Entrenamiento TCP · Grupo B 30 Min.
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj61217pzcojk318wfrq@actc-cal
-DTSTART:20260912T145500Z
-DTEND:20260912T152500Z
-SUMMARY:2do. Entrenamiento TCP · Grupo A 30 Min.
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj61217qzcojjrn98ew8@actc-cal
-DTSTART:20260912T153000Z
-DTEND:20260912T160000Z
-SUMMARY:2do. Entrenamiento TCP · Grupo B 30 Min.
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj622184zcoj084khdy0@actc-cal
+UID:tcp-20260912-clasificación@actc-cal
 DTSTART:20260912T190900Z
-DTEND:20260912T191700Z
-SUMMARY:Clasificación TCP · 2* Tercio 8 Min.
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj622185zcoj2euusif6@actc-cal
-DTSTART:20260912T192200Z
-DTEND:20260912T193000Z
-SUMMARY:Clasificación TCP · 3* Tercio 8 Min.
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj622186zcojecs30zlf@actc-cal
-DTSTART:20260912T193500Z
 DTEND:20260912T194300Z
-SUMMARY:Clasificación TCP · 1* Tercio 8 Min.
+SUMMARY:TC Pista · Clasificación
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:cmtytsj62218dzcojv493si3y@actc-cal
-DTSTART:20260913T130500Z
-DTEND:20260913T131500Z
-SUMMARY:1ra. Serie TCP · 5 vueltas
+UID:tcp-20260912-entrenamientos@actc-cal
+DTSTART:20260912T122500Z
+DTEND:20260912T160000Z
+SUMMARY:TC Pista · Entrenamientos
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:cmtytsj62218fzcoj2ftx9fca@actc-cal
-DTSTART:20260913T133000Z
-DTEND:20260913T134000Z
-SUMMARY:2da. Serie TCP · 5 vueltas
-LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
-URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:cmtytsj63218rzcojp44slh3k@actc-cal
+UID:tcp-20260913-final@actc-cal
 DTSTART:20260913T155500Z
 DTEND:20260913T163500Z
-SUMMARY:FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo.
+SUMMARY:TC Pista · Final — San Luis
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj61217kzcojyjbqvner@actc-cal
-DTSTART:20261003T122500Z
-DTEND:20261003T125500Z
-SUMMARY:1er. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
+UID:tcp-20260913-series@actc-cal
+DTSTART:20260913T130500Z
+DTEND:20260913T134000Z
+SUMMARY:TC Pista · Series
+LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
+URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj61217lzcojqkqa2jor@actc-cal
-DTSTART:20261003T130000Z
-DTEND:20261003T133000Z
-SUMMARY:1er. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj61217pzcojk318wfrq@actc-cal
-DTSTART:20261003T145500Z
-DTEND:20261003T152500Z
-SUMMARY:2do. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj61217qzcojjrn98ew8@actc-cal
-DTSTART:20261003T153000Z
-DTEND:20261003T160000Z
-SUMMARY:2do. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj622184zcoj084khdy0@actc-cal
+UID:tcp-20261003-clasificación@actc-cal
 DTSTART:20261003T190900Z
-DTEND:20261003T191700Z
-SUMMARY:Clasificación TCP · 2* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj622185zcoj2euusif6@actc-cal
-DTSTART:20261003T192200Z
-DTEND:20261003T193000Z
-SUMMARY:Clasificación TCP · 3* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj622186zcojecs30zlf@actc-cal
-DTSTART:20261003T193500Z
 DTEND:20261003T194300Z
-SUMMARY:Clasificación TCP · 1* Tercio 8 Min. (estimado)
+SUMMARY:TC Pista · Clasificación (estimado)
 LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj62218dzcojv493si3y@actc-cal
-DTSTART:20261004T130500Z
-DTEND:20261004T131500Z
-SUMMARY:1ra. Serie TCP · 5 vueltas (estimado)
+UID:tcp-20261003-entrenamientos@actc-cal
+DTSTART:20261003T122500Z
+DTEND:20261003T160000Z
+SUMMARY:TC Pista · Entrenamientos (estimado)
 LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj62218fzcoj2ftx9fca@actc-cal
-DTSTART:20261004T133000Z
-DTEND:20261004T134000Z
-SUMMARY:2da. Serie TCP · 5 vueltas (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261004-cmtytsj63218rzcojp44slh3k@actc-cal
+UID:tcp-20261004-final@actc-cal
 DTSTART:20261004T155500Z
 DTEND:20261004T163500Z
-SUMMARY:FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo. (estimado)
+SUMMARY:TC Pista · Final — San Nicolas (estimado)
 LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj61217kzcojyjbqvner@actc-cal
-DTSTART:20261024T122500Z
-DTEND:20261024T125500Z
-SUMMARY:1er. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
+UID:tcp-20261004-series@actc-cal
+DTSTART:20261004T130500Z
+DTEND:20261004T134000Z
+SUMMARY:TC Pista · Series (estimado)
+LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj61217lzcojqkqa2jor@actc-cal
-DTSTART:20261024T130000Z
-DTEND:20261024T133000Z
-SUMMARY:1er. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj61217pzcojk318wfrq@actc-cal
-DTSTART:20261024T145500Z
-DTEND:20261024T152500Z
-SUMMARY:2do. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj61217qzcojjrn98ew8@actc-cal
-DTSTART:20261024T153000Z
-DTEND:20261024T160000Z
-SUMMARY:2do. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj622184zcoj084khdy0@actc-cal
+UID:tcp-20261024-clasificación@actc-cal
 DTSTART:20261024T190900Z
-DTEND:20261024T191700Z
-SUMMARY:Clasificación TCP · 2* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj622185zcoj2euusif6@actc-cal
-DTSTART:20261024T192200Z
-DTEND:20261024T193000Z
-SUMMARY:Clasificación TCP · 3* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj622186zcojecs30zlf@actc-cal
-DTSTART:20261024T193500Z
 DTEND:20261024T194300Z
-SUMMARY:Clasificación TCP · 1* Tercio 8 Min. (estimado)
+SUMMARY:TC Pista · Clasificación (estimado)
 LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj62218dzcojv493si3y@actc-cal
-DTSTART:20261025T130500Z
-DTEND:20261025T131500Z
-SUMMARY:1ra. Serie TCP · 5 vueltas (estimado)
+UID:tcp-20261024-entrenamientos@actc-cal
+DTSTART:20261024T122500Z
+DTEND:20261024T160000Z
+SUMMARY:TC Pista · Entrenamientos (estimado)
 LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj62218fzcoj2ftx9fca@actc-cal
-DTSTART:20261025T133000Z
-DTEND:20261025T134000Z
-SUMMARY:2da. Serie TCP · 5 vueltas (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261025-cmtytsj63218rzcojp44slh3k@actc-cal
+UID:tcp-20261025-final@actc-cal
 DTSTART:20261025T155500Z
 DTEND:20261025T163500Z
-SUMMARY:FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo. (estimado)
+SUMMARY:TC Pista · Final — Rosario (estimado)
 LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj61217kzcojyjbqvner@actc-cal
-DTSTART:20261114T122500Z
-DTEND:20261114T125500Z
-SUMMARY:1er. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
+UID:tcp-20261025-series@actc-cal
+DTSTART:20261025T130500Z
+DTEND:20261025T134000Z
+SUMMARY:TC Pista · Series (estimado)
+LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj61217lzcojqkqa2jor@actc-cal
-DTSTART:20261114T130000Z
-DTEND:20261114T133000Z
-SUMMARY:1er. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj61217pzcojk318wfrq@actc-cal
-DTSTART:20261114T145500Z
-DTEND:20261114T152500Z
-SUMMARY:2do. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj61217qzcojjrn98ew8@actc-cal
-DTSTART:20261114T153000Z
-DTEND:20261114T160000Z
-SUMMARY:2do. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj622184zcoj084khdy0@actc-cal
+UID:tcp-20261114-clasificación@actc-cal
 DTSTART:20261114T190900Z
-DTEND:20261114T191700Z
-SUMMARY:Clasificación TCP · 2* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj622185zcoj2euusif6@actc-cal
-DTSTART:20261114T192200Z
-DTEND:20261114T193000Z
-SUMMARY:Clasificación TCP · 3* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj622186zcojecs30zlf@actc-cal
-DTSTART:20261114T193500Z
 DTEND:20261114T194300Z
-SUMMARY:Clasificación TCP · 1* Tercio 8 Min. (estimado)
+SUMMARY:TC Pista · Clasificación (estimado)
 LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj62218dzcojv493si3y@actc-cal
-DTSTART:20261115T130500Z
-DTEND:20261115T131500Z
-SUMMARY:1ra. Serie TCP · 5 vueltas (estimado)
+UID:tcp-20261114-entrenamientos@actc-cal
+DTSTART:20261114T122500Z
+DTEND:20261114T160000Z
+SUMMARY:TC Pista · Entrenamientos (estimado)
 LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj62218fzcoj2ftx9fca@actc-cal
-DTSTART:20261115T133000Z
-DTEND:20261115T134000Z
-SUMMARY:2da. Serie TCP · 5 vueltas (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261115-cmtytsj63218rzcojp44slh3k@actc-cal
+UID:tcp-20261115-final@actc-cal
 DTSTART:20261115T155500Z
 DTEND:20261115T163500Z
-SUMMARY:FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo. (estimado)
+SUMMARY:TC Pista · Final — Rio Cuarto (estimado)
 LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj61217kzcojyjbqvner@actc-cal
-DTSTART:20261205T122500Z
-DTEND:20261205T125500Z
-SUMMARY:1er. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+UID:tcp-20261115-series@actc-cal
+DTSTART:20261115T130500Z
+DTEND:20261115T134000Z
+SUMMARY:TC Pista · Series (estimado)
+LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj61217lzcojqkqa2jor@actc-cal
-DTSTART:20261205T130000Z
-DTEND:20261205T133000Z
-SUMMARY:1er. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj61217pzcojk318wfrq@actc-cal
-DTSTART:20261205T145500Z
-DTEND:20261205T152500Z
-SUMMARY:2do. Entrenamiento TCP · Grupo A 30 Min. (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj61217qzcojjrn98ew8@actc-cal
-DTSTART:20261205T153000Z
-DTEND:20261205T160000Z
-SUMMARY:2do. Entrenamiento TCP · Grupo B 30 Min. (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj622184zcoj084khdy0@actc-cal
+UID:tcp-20261205-clasificación@actc-cal
 DTSTART:20261205T190900Z
-DTEND:20261205T191700Z
-SUMMARY:Clasificación TCP · 2* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj622185zcoj2euusif6@actc-cal
-DTSTART:20261205T192200Z
-DTEND:20261205T193000Z
-SUMMARY:Clasificación TCP · 3* Tercio 8 Min. (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj622186zcojecs30zlf@actc-cal
-DTSTART:20261205T193500Z
 DTEND:20261205T194300Z
-SUMMARY:Clasificación TCP · 1* Tercio 8 Min. (estimado)
+SUMMARY:TC Pista · Clasificación (estimado)
 LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj62218dzcojv493si3y@actc-cal
-DTSTART:20261206T130500Z
-DTEND:20261206T131500Z
-SUMMARY:1ra. Serie TCP · 5 vueltas (estimado)
+UID:tcp-20261205-entrenamientos@actc-cal
+DTSTART:20261205T122500Z
+DTEND:20261205T160000Z
+SUMMARY:TC Pista · Entrenamientos (estimado)
 LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj62218fzcoj2ftx9fca@actc-cal
-DTSTART:20261206T133000Z
-DTEND:20261206T134000Z
-SUMMARY:2da. Serie TCP · 5 vueltas (estimado)
-LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:est-tcp-20261206-cmtytsj63218rzcojp44slh3k@actc-cal
+UID:tcp-20261206-final@actc-cal
 DTSTART:20261206T155500Z
 DTEND:20261206T163500Z
-SUMMARY:FINAL TCP · 20 vueltas o 40 (Cuarenta) minutos máximo. (estimado)
+SUMMARY:TC Pista · Final — La Plata (estimado)
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcp/calendario
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:tcp-20261206-series@actc-cal
+DTSTART:20261206T130500Z
+DTEND:20261206T134000Z
+SUMMARY:TC Pista · Series (estimado)
 LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcp/calendario
 STATUS:TENTATIVE
