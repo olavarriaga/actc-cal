@@ -112,7 +112,7 @@ def ics(name, events):
     stamp = "20260101T000000Z"
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//actc-cal//ES", "CALSCALE:GREGORIAN",
              f"X-WR-CALNAME:{esc(name)}", "X-WR-TIMEZONE:America/Argentina/Buenos_Aires",
-             "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
+             "REFRESH-INTERVAL;VALUE=DURATION:PT1H", "X-PUBLISHED-TTL:PT1H"]
     for body in events:
         lines += ["BEGIN:VEVENT", f"DTSTAMP:{stamp}", *body, "END:VEVENT"]
     lines.append("END:VCALENDAR")
