@@ -51,9 +51,37 @@ def race_event(slug, e):
 
 
 def session_event(x):
+    url = f"cronogramas/{x['schedule']}" if x["schedule"] else f"{x['slugs'][0]}/calendario"
     return [f"UID:{x['uid']}@actc-cal", f"DTSTART:{x['start']}", f"DTEND:{x['end']}",
-            f"SUMMARY:{esc(x['title'])}", f"LOCATION:{esc(x['location'])}",
-            f"URL:https://www.actc.org.ar/cronogramas/{x['schedule']}"]
+            f"SUMMARY:{esc(x['title'])}", f"LOCATION:{esc(x['location'])}", f"URL:https://www.actc.org.ar/{url}",
+            *(["STATUS:TENTATIVE"] if x.get("estimated") else [])]
+
+
+def day_of(stamp):
+    return datetime.strptime(stamp, "%Y%m%dT%H%M%SZ").date()
+
+
+def estimates(slug, races, saved, today):
+    """Upcoming races with no published schedule get the last real weekend's times, shifted to their date."""
+    mine = [x for x in saved if slug in x["slugs"]]
+    if not mine:
+        return []
+    last = mine[-1]["schedule"]  # saved is sorted by start, so this is the most recent real weekend
+    template = [x for x in mine if x["schedule"] == last]
+    weekend = range(-3, 1)  # sessions run from Thursday to race Sunday
+    in_weekend = lambda x, e: (day_of(x["start"]) - e["date"]).days in weekend
+    # anchor on the template's race day, not its last session (which may be Saturday)
+    sunday = next((e["date"] for e in races if in_weekend(template[-1], e)), day_of(template[-1]["start"]))
+    out = []
+    for e in races:
+        if e["date"] < today or any(in_weekend(x, e) for x in mine):
+            continue
+        shift = timedelta(days=(e["date"] - sunday).days)
+        move = lambda t: f"{datetime.strptime(t, '%Y%m%dT%H%M%SZ') + shift:%Y%m%dT%H%M%SZ}"
+        out += [dict(x, uid=f"est-{slug}-{e['date']:%Y%m%d}-{x['uid']}", schedule=None, slugs=[slug], estimated=True,
+                     title=x["title"] + " (estimado)", location=f"Autódromo {e['track']}, {e['city']}",
+                     start=move(x["start"]), end=move(x["end"])) for x in template]
+    return out
 
 
 def ics(name, events):
@@ -117,6 +145,12 @@ def main():
     noise = dict(item, id="i2", title="Salida a pista TC")
     [got] = sessions(dict(id="s1", circuit=None, days=[dict(date="2026-09-13T00:00:00.000Z", items=[item, noise])]))
     assert (got["start"], got["end"], got["slugs"]) == ("20260913T170000Z", "20260913T175000Z", ["tc"])
+    races = [dict(n=12, name="X", date=date(2026, 10, 4), track="T", city="C"),
+             dict(n=13, name="Y", date=date(2026, 10, 25), track="T", city="C")]
+    real = dict(got, start="20261003T170000Z", end="20261003T175000Z", schedule="s1")  # fecha 12 already published
+    [est] = estimates("tc", races, [real], date(2026, 10, 2))
+    assert (est["start"], est["estimated"], est["uid"]) == ("20261024T170000Z", True, "est-tc-20261025-i1")
+    assert estimates("tcm", races, [real], date(2026, 10, 2)) == []
     found = {slug: parse(fetch(f"{slug}/calendario")) for slug in CATS}
     saved = update_sessions()
     for slug, evs in found.items():
@@ -125,11 +159,15 @@ def main():
         sys.exit(f"no events parsed for {empty}; not writing (site markup changed?)")
     OUT.mkdir(exist_ok=True)
     SESSIONS.write_text(json.dumps(saved, ensure_ascii=False, indent=1) + "\n")
+    today = date.today()
+    est = {slug: estimates(slug, evs, saved, today) for slug, evs in found.items()}
     for slug, evs in found.items():
-        events = [race_event(slug, e) for e in evs] + [session_event(x) for x in saved if slug in x["slugs"]]
+        print(f"{slug}: {len(est[slug])} sesiones estimadas")
+        mine = [x for x in saved if slug in x["slugs"]] + est[slug]
+        events = [race_event(slug, e) for e in evs] + [session_event(x) for x in mine]
         (OUT / f"{slug}.ics").write_bytes(ics(f"ACTC {CATS[slug]}", events).encode())
     races = sorted(((s, e) for s, evs in found.items() for e in evs), key=lambda x: x[1]["date"])
-    everything = [race_event(s, e) for s, e in races] + [session_event(x) for x in saved]
+    everything = [race_event(s, e) for s, e in races] + [session_event(x) for x in saved + sum(est.values(), [])]
     (OUT / "actc.ics").write_bytes(ics("ACTC", everything).encode())
 
 
