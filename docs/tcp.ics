@@ -100,6 +100,15 @@ URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-12@actc-cal
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:TC Pista · Fecha 12 — San Nicolas
+LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tcp-20260912-clasificación@actc-cal
 DTSTART:20260912T190900Z
 DTEND:20260912T194300Z
@@ -133,46 +142,6 @@ DTEND:20260913T134000Z
 SUMMARY:TC Pista · Series
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261003-clasificación@actc-cal
-DTSTART:20261003T190900Z
-DTEND:20261003T194300Z
-SUMMARY:TC Pista · Clasificación (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261003-entrenamientos@actc-cal
-DTSTART:20261003T122500Z
-DTEND:20261003T160000Z
-SUMMARY:TC Pista · Entrenamientos (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261004-final@actc-cal
-DTSTART:20261004T155500Z
-DTEND:20261004T163500Z
-SUMMARY:TC Pista · Final — San Nicolas (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261004-series@actc-cal
-DTSTART:20261004T130500Z
-DTEND:20261004T134000Z
-SUMMARY:TC Pista · Series (estimado)
-LOCATION:Autódromo Ciudad San Nicolas\, San Nicolas\, Buenos Aires
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
