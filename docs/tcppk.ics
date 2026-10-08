@@ -78,4 +78,13 @@ SUMMARY:TC Pista Pick Up · Fecha 8 — Balcarce
 LOCATION:Autódromo Juan Manuel Fangio-BALCARCE\, Balcarce\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:tcppk-2026-9@actc-cal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TC Pista Pick Up · Fecha 9 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcppk/calendario
+END:VEVENT
 END:VCALENDAR

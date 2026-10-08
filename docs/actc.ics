@@ -604,6 +604,15 @@ URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tcm-2026-10@actc-cal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TC Mouras · Fecha 10 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tcpm-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260125
 DTEND;VALUE=DATE:20260126
@@ -686,6 +695,15 @@ URL:https://www.actc.org.ar/tcpm/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tcpm-2026-10@actc-cal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TC Pista Mouras · Fecha 10 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcpm/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tcpk-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260222
 DTEND;VALUE=DATE:20260223
@@ -758,6 +776,15 @@ URL:https://www.actc.org.ar/tcpk/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tcpk-2026-9@actc-cal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TC Pick Up · Fecha 9 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcpk/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tcppk-2026-1@actc-cal
 DTSTART;VALUE=DATE:20260222
 DTEND;VALUE=DATE:20260223
@@ -826,6 +853,15 @@ DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:TC Pista Pick Up · Fecha 8 — Balcarce
 LOCATION:Autódromo Juan Manuel Fangio-BALCARCE\, Balcarce\, Buenos Aires
+URL:https://www.actc.org.ar/tcppk/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:tcppk-2026-9@actc-cal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TC Pista Pick Up · Fecha 9 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
 END:VCALENDAR

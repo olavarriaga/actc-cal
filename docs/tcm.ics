@@ -88,4 +88,13 @@ SUMMARY:TC Mouras · Fecha 9 — Rosario
 LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
 URL:https://www.actc.org.ar/tcm/calendario
 END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:tcm-2026-10@actc-cal
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TC Mouras · Fecha 10 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcm/calendario
+END:VEVENT
 END:VCALENDAR
