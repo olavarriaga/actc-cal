@@ -109,6 +109,15 @@ URL:https://www.actc.org.ar/tc/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tc-2026-13@actc-cal
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TC · Fecha 13 — Rosario
+LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
+URL:https://www.actc.org.ar/tc/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tc-20260912-clasificación@actc-cal
 DTSTART:20260912T194800Z
 DTEND:20260912T203500Z
@@ -142,46 +151,6 @@ DTEND:20260913T145500Z
 SUMMARY:TC · Series
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tc-20261024-clasificación@actc-cal
-DTSTART:20261024T194800Z
-DTEND:20261024T203500Z
-SUMMARY:TC · Clasificación (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tc/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tc-20261024-entrenamientos@actc-cal
-DTSTART:20261024T140500Z
-DTEND:20261024T172500Z
-SUMMARY:TC · Entrenamientos (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tc/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tc-20261025-final@actc-cal
-DTSTART:20261025T170000Z
-DTEND:20261025T175000Z
-SUMMARY:TC · Final — Rosario (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tc/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tc-20261025-series@actc-cal
-DTSTART:20261025T135500Z
-DTEND:20261025T145500Z
-SUMMARY:TC · Series (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tc/calendario
-STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
@@ -366,6 +335,15 @@ URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-13@actc-cal
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TC Pista · Fecha 13 — Rosario
+LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tcp-20260912-clasificación@actc-cal
 DTSTART:20260912T190900Z
 DTEND:20260912T194300Z
@@ -399,46 +377,6 @@ DTEND:20260913T134000Z
 SUMMARY:TC Pista · Series
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261024-clasificación@actc-cal
-DTSTART:20261024T190900Z
-DTEND:20261024T194300Z
-SUMMARY:TC Pista · Clasificación (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261024-entrenamientos@actc-cal
-DTSTART:20261024T122500Z
-DTEND:20261024T160000Z
-SUMMARY:TC Pista · Entrenamientos (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261025-final@actc-cal
-DTSTART:20261025T155500Z
-DTEND:20261025T163500Z
-SUMMARY:TC Pista · Final — Rosario (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261025-series@actc-cal
-DTSTART:20261025T130500Z
-DTEND:20261025T134000Z
-SUMMARY:TC Pista · Series (estimado)
-LOCATION:Autódromo Juan Manuel Fangio-ROSARIO\, Rosario\, Santa Fe
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
