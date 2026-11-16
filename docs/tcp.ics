@@ -118,6 +118,15 @@ URL:https://www.actc.org.ar/tcp/calendario
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
+UID:tcp-2026-14@actc-cal
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TC Pista · Fecha 14 — Rio Cuarto
+LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
+URL:https://www.actc.org.ar/tcp/calendario
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
 UID:tcp-20260912-clasificación@actc-cal
 DTSTART:20260912T190900Z
 DTEND:20260912T194300Z
@@ -151,46 +160,6 @@ DTEND:20260913T134000Z
 SUMMARY:TC Pista · Series
 LOCATION:Autodromo Rosendo Hernández- San Luis\, San Luis\, San Luís
 URL:https://www.actc.org.ar/cronogramas/cmtdbcp9d00tvvk7w7vngzs3l
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261114-clasificación@actc-cal
-DTSTART:20261114T190900Z
-DTEND:20261114T194300Z
-SUMMARY:TC Pista · Clasificación (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261114-entrenamientos@actc-cal
-DTSTART:20261114T122500Z
-DTEND:20261114T160000Z
-SUMMARY:TC Pista · Entrenamientos (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261115-final@actc-cal
-DTSTART:20261115T155500Z
-DTEND:20261115T163500Z
-SUMMARY:TC Pista · Final — Rio Cuarto (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260101T000000Z
-UID:tcp-20261115-series@actc-cal
-DTSTART:20261115T130500Z
-DTEND:20261115T134000Z
-SUMMARY:TC Pista · Series (estimado)
-LOCATION:Autódromo Parque Ciudad de Rio Cuarto\, Rio Cuarto\, Cordoba
-URL:https://www.actc.org.ar/tcp/calendario
-STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260101T000000Z
