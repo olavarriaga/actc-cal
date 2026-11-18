@@ -96,4 +96,13 @@ SUMMARY:TC Pista Pick Up · Fecha 10 — La Plata
 LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
 URL:https://www.actc.org.ar/tcppk/calendario
 END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260101T000000Z
+UID:tcppk-2026-11@actc-cal
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:TC Pista Pick Up · Fecha 11 — La Plata
+LOCATION:Autódromo Roberto José Mouras\, La Plata\, Buenos Aires
+URL:https://www.actc.org.ar/tcppk/calendario
+END:VEVENT
 END:VCALENDAR
